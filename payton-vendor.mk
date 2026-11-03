@@ -38,6 +38,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw
 
 PRODUCT_PACKAGES += \
+    vulkan.adreno \
+    libVkLayer_q3dtools \
+    libgpudataproducer \
     gatekeeper.sdm660 \
     keystore.sdm660 \
     libQSEEComAPI \
