@@ -856,7 +856,7 @@ cc_prebuilt_library_shared {
                 "libbinder",
                 "libdualcameraddm",
                 "libhal_dbg",
-                "android.frameworks.displayservice@1.0",
+                "lineage.frameworks.displayservice@1.0",
                 "android.hidl.base@1.0",
                 "libhidlbase",
                 "libhidltransport",
