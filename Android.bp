@@ -10931,36 +10931,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-android_app_import {
-    name: "MotoSignatureApp",
-    owner: "motorola",
-    apk: "proprietary/system/app/MotoSignatureApp/MotoSignatureApp.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-}
-
-android_app_import {
-    name: "MotCamera2",
-    owner: "motorola",
-    apk: "proprietary/system/priv-app/MotCamera2/MotCamera2.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-}
-
-dex_import {
-    name: "com.motorola.motosignature",
-    owner: "motorola",
-    jars: [
-        "proprietary/system/framework/com.motorola.motosignature.jar",
-    ],
-}
-
 cc_prebuilt_binary {
     name: "charge_only_mode",
     owner: "motorola",
